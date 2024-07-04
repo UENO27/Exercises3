@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class user_name{
+class Task1_01{
     public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	int t = 0;
@@ -25,4 +25,6 @@ class user_name{
 	    }
 	}
 	System.out.println("Heads: " + t +", Tails: "+ f);
+	if(t > f)System.out.println(Name + " won!");
+	if(t < f)System.out.println(Name + " lost.");
 }
