@@ -18,6 +18,8 @@ class Task1{
 		     f++;
 		 }
 	     }
-	     System.out.println("Heads: " + t +", Tails: "+ f);
+	System.out.println("Heads: " + t +", Tails: "+ f);
+	if(t > f)System.out.println("You won");
+	if(t < f)System.out.println("You lost");
     }
 }
